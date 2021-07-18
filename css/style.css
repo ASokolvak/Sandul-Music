@@ -405,7 +405,7 @@ ul.about__list{
     left: 0;
     right: 0;
     top: 0;
-    background-color: rgba(0, 106, 83, 0.5);
+    background-color: rgba(0, 106, 83);
     display: block;
     transition: all .5s;
     margin-top: 65px;
@@ -546,7 +546,7 @@ ul.about__list{
   }
   .slick-next,.slick-prev{
     top: 110%;
-    width: 45px;
+    width: 50px;
   }
 }
 @media (max-width:575px){
@@ -592,10 +592,13 @@ ul.about__list{
   }
   .slick-next,.slick-prev{
     top: 110%;
-    width: 45px;
+    width: 50px;
+  }
+  .slick-list, .draggable{
+    margin-left: 21px;
   }
   .footer{
-    margin-top: 0px;
+    margin-top: -80px;
   }
 }
 @media (max-width:360px){
@@ -605,9 +608,8 @@ ul.about__list{
   .form input{
     width: 270px;
   }
-  .footer{
-    margin-top: -50px;
-  }
+  
+  
 }
 
 
