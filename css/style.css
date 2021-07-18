@@ -585,13 +585,13 @@ ul.about__list{
     font-size: 18px;
   }
   .slick-prev{
-    left: -4%;
+    left: 40%;
   }
   .slick-next{
-    left: 90%;
+    left: 51%;
   }
   .slick-next,.slick-prev{
-    top: 50%;
+    top: 119%;
     width: 50px;
   }
   .slick-list, .draggable{
