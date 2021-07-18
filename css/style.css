@@ -585,13 +585,13 @@ ul.about__list{
     font-size: 18px;
   }
   .slick-prev{
-    left: 34%;
+    left: -4%;
   }
   .slick-next{
-    left: 47%;
+    left: 87%;
   }
   .slick-next,.slick-prev{
-    top: 110%;
+    top: 50%;
     width: 50px;
   }
   .slick-list, .draggable{
@@ -602,9 +602,7 @@ ul.about__list{
   }
 }
 @media (max-width:360px){
-  .slick-next, .slick-prev{
-    top: 117%;
-  }
+  
   .form input{
     width: 270px;
   }
