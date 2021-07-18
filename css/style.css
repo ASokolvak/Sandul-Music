@@ -585,10 +585,10 @@ ul.about__list{
     font-size: 18px;
   }
   .slick-prev{
-    left: 40%;
+    left: 30%;
   }
   .slick-next{
-    left: 51%;
+    left: 35%;
   }
   .slick-next,.slick-prev{
     top: 119%;
